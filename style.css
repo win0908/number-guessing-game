@@ -1,0 +1,96 @@
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+  }
+  
+.container {
+	flex: 0 0 auto;
+	width: auto;
+	display: flex;
+	align-self: center;
+	align-items: center;
+	flex-direction: column;
+}
+  
+h1 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+label {
+	font-size: 2em;
+	font-style: normal;
+	margin-top: 24px;
+	font-weight: 700;
+
+}
+
+
+
+.input-container {
+	width: 250px;
+	height: 150px;
+	flex: 0 0 auto;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	margin-top: 48px;
+	align-items: center;
+	flex-direction: column;
+	border-color: #2863ff;
+	border-width: 3px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+
+#inputNum {
+	width: 125%;
+	height: 50%;
+	padding: 0px;
+	font-size: 2em;
+	align-self: center;
+	text-align: center;
+	border: none;
+	color: #2863ff;
+	opacity: 0.8;
+}
+
+#btn {
+	width: 125%;
+	height: 50%;
+	font-size: 2em;
+	font-weight: bold;
+	color: aliceblue;
+	border: none;
+	background-color: #2863ff;
+	transition: 0.3s;
+	opacity: 0.6;
+}
+#btn:hover {
+	opacity: 1;
+}
+#btn:active {
+	opacity: 1;
+	background-color: hsl(224, 100%, 70%);
+}
+
+
+#resultLabel {
+	color: hsl(0, 100%, 57%);
+	font-style: italic;
+}
+
+
+
+
+
+
+
+

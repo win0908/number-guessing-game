@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+  
+  <script 
+    src="https://code.jquery.com/jquery-3.3.1.js" 
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+    crossorigin="anonymous">
+  </script>
+  
+  <script> 
+    $(function(){
+    $("#header").load("/header.html"); 
+    //   $("#footer").load("footer.html"); 
+    });
+  </script> 
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/header-footer.css">
+  <title> Number Guessing </title>
+
+</head>
+
+
+<body>
+    
+    <div class="container">
+      
+      <h1> I&apos;m Thinking of a number Between 1 - 100 </h1>
+      <h1>Can you Guess it?</h1>
+
+      <div class="input-container">
+        <input type="text" id="inputNum" value="0" />
+        <button type="button" id="btn" onclick="rollDice()">Button</button>
+      </div>
+      <label id="resultLabel"> &#8203; </label>
+    
+    </div>
+
+    
+	
+<!-- 	<div id="myCanvas"></div> -->
+	
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
